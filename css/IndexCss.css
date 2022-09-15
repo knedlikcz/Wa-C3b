@@ -6,6 +6,27 @@ html{
     list-style: none;
 }
 
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 1em;
+}
+
+.row1{
+    grid-column-start: 1;
+    grid-row-start:1 ;
+    grid-row-end: 5;
+    border: 1px black solid;
+}
+
+.row2{
+    border: 1px black solid;
+    grid-column-start: 2;
+    grid-row-start:1 ;
+    grid-row-end: 5;
+}
+
 #Wrapper{
     margin-left: 10%;
     margin-right: 10%;
@@ -15,6 +36,7 @@ html{
 
 h2{
     text-decoration: underline;
+    text-align: center;
 }
 
 ul{
@@ -23,5 +45,10 @@ ul{
 
 p{
     margin-top: 0.5em;
+}
+
+img{
+    width: 200px;
+    height: 300px;
 }
 
