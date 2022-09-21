@@ -1,0 +1,22 @@
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    margin-top: 15px;
+}
+
+button{
+    display: block;
+    min-width: 80vw;
+    border: none;
+    background-color: white;
+    border: 1px black solid;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
