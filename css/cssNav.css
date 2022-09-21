@@ -1,15 +1,14 @@
-li{
+form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-ul{
-    margin-top: 15px;
-}
+
 
 button{
+    margin-top: 15px;
     display: block;
     min-width: 80vw;
     border: none;
