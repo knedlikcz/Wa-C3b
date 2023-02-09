@@ -1,0 +1,85 @@
+.card {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-body {
+    background-color: #f5f5f5;
+}
+
+.card-body table {
+    margin-top: 20px;
+}
+
+.card-body table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.card-body table td {
+    background-color: white;
+}
+
+.card-body table td button {
+    margin-right: 10px;
+}
+
+.card-body table td button:last-child {
+    margin-right: 0;
+}
+
+.card-body table td button:hover {
+    cursor: pointer;
+}
+
+.card-body table td button:focus {
+    outline: none;
+}
+
+.card-body table td button.delete {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.card-body table td button.edit {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: white;
+}
+
+.card-body table td button.delete:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+}
+
+.card-body table td button.edit:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.card-body table td button.delete:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.5);
+}
+
+.card-body table td button.edit:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,193,7,.5);
+}
+
+.card-body table td button.delete:active {
+    background-color: #bd2130;
+    border-color: #bd2130;
+}
+
+.card-body table td button.edit:active {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
