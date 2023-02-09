@@ -1,8 +1,0 @@
-
-
-.grid{
-    display: grid;
-    grid-template-columns: 19% 19% 19% 19% 19%;
-    grid-gap: 5px;
-    padding: 10px;
-}
